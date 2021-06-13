@@ -1,0 +1,269 @@
+/* 
+    font-family: 'Fira Mono',
+    monospace;
+    font-family: 'Montserrat',
+    sans-serif;
+    font-family: 'Noto Sans',
+    sans-serif;
+    font-family: 'Open Sans',
+    sans-serif;
+    font-family: 'Poppins',
+    sans-serif;
+    font-family: 'Share Tech Mono',
+    monospace;
+    font-family: 'Heebo',
+    sans-serif;
+*/
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: rgb(10, 25, 44);
+    color: rgb(136, 146, 176);
+}
+
+.btn{
+    font-family: 'Poppins',
+    sans-serif !important;
+}
+
+nav.navbar{
+    padding: 15px 50px;
+    background-color: rgb(10, 25, 47);
+}
+
+nav .navbar-brand{
+    font-family: 'Open Sans',
+    sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+li.nav-item{
+    margin-left: 10px;
+    font-family: 'Fira Mono',
+    monospace;
+}
+
+.hero{
+    padding-top: 50px;
+}
+
+.my-name{
+    color: rgb(204, 214, 246);
+}
+
+.text-header h1{
+    font-size: 4em;
+    font-weight: 800;
+    font-family: 'Heebo',
+    sans-serif;
+}
+
+.subtext{
+    font-family: 'Inconsolata',
+    monospace;
+    display: block;
+    font-size: 19px;
+    padding: 20px 0;
+}
+
+.title-page{
+    display: flex;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.title-page span{
+    border: 1px solid rgb(204, 214, 246);
+    width: 100px;
+    height: 1px;
+}
+
+h3.f-page{
+    margin: 0 10px;
+    font-size: 22px;
+    font-family: 'Share Tech Mono',
+    monospace;
+    color: rgb(204, 214, 246);
+}
+
+.about-me,
+.experience,
+.project,
+.contact{
+    margin: 250px 0;
+}
+
+.about-me .row{
+    padding-top: 10px;
+}
+
+.image img{
+    width: 250px;
+    margin: 10px 0;
+    transition: .5s;
+}
+
+.image img:hover{
+    opacity: .5;
+    border-bottom: 10px solid #fff;
+    box-sizing: border-box;
+}
+
+.skill p,
+.desc p{
+    font-family: 'Poppins',
+    sans-serif;
+}
+
+.skill .all-skill {
+    padding: 10px;
+    width: 100%;
+    height: 150px;
+}
+
+.all-skill ul{
+    padding: 0 30px;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.all-skill ul li,
+.tab-pane ul li {
+    list-style: square;
+    font-family: 'Inconsolata',
+    monospace;
+}
+
+.list-group-item,
+.list-group-item:hover{
+    font-family: 'Noto Sans',
+    sans-serif;
+    font-size: 15px;
+    background-color: transparent;
+    border: none;
+    border-left: 2px solid rgb(51, 63, 88);
+    color: rgb(142, 145, 153);
+}
+
+.experience .active {
+    background-color: transparent;
+    transition: .5s;
+}
+
+.experience .active:hover{
+    background-color: rgb(23, 42, 69);
+}
+
+.tab-content .tab-pane{
+    padding: 10px;
+}
+
+.tab-content .active:hover{
+    background-color: transparent;
+}
+
+.list-group{
+    margin-bottom: 15px;
+}
+
+.tab-pane h4{
+    font-size: 22px;
+    font-family: 'Open Sans',
+    sans-serif;
+    color: rgb(100, 255, 218);
+}
+
+.tab-pane span{
+    font-size: 15px;
+    font-family: 'Fira Mono',
+    monospace;
+}
+
+.project .card{
+    background-color: rgb(23, 42, 69);
+}
+
+.project .card img:hover{
+    opacity: .6;
+}
+
+.project .card-title,
+.project .card-text{
+    font-size: 18px;
+    color: rgb(204, 214, 246);
+    font-family: 'Poppins',
+    sans-serif;
+}
+
+.project .card-text{
+    font-size: 14px;
+}
+
+.contact .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.contact-me{
+    width: 75%;
+    text-align: center;
+}
+
+.contact-me h1{
+    font-family: 'Heebo',
+    sans-serif;
+    font-size: 3em;
+}
+
+.contact-me p{
+    font-family: 'Poppins',
+    sans-serif;
+}
+
+.footer{
+    background-color: rgb(2, 12, 27);
+    color: rgb(31, 87, 157);
+    padding: 20px;
+    font-family: 'Noto Sans',
+    sans-serif;
+}
+
+/* hover */
+.btn-outline-light{
+    transition: .5s;
+}
+.btn-outline-light:hover{
+    opacity: .2;
+}
+
+@media screen and  (max-width: 500px){
+
+    nav.navbar{
+        padding: 10px;
+    }
+
+    .text-header h1{
+        font-size: 3em;
+    }
+
+    .project .card{
+        margin: 10px;
+    }
+
+    .image img{
+        width: 200px;
+        margin-bottom: 20px;
+    }
+
+    .all-skill ul{
+        display: block;
+    }
+}
